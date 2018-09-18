@@ -15,7 +15,7 @@ import zh from '@/Language/zh';
 Vue.use(VueI18n);
 Vue.use(iView);
 Vue.use(ElementUI);
-Vue.prototype.$echarts = echarts; /*注入e*/
+Vue.prototype.$echarts = echarts; /*注入*/
 /*设置默认语言*/
 Vue.config.lang = store.state.userOperating.lang || 'en';
 const messages = {
